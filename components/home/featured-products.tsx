@@ -4,28 +4,28 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const products = [
   {
-    title: "Hoodies & Jumpers",
-    slug: "hoodies-jumpers",
-    description: "Soft, warm, and perfect for branding. Premium cotton fleece for ultimate comfort.",
-    image: "/premium-hoodie-cotton-fleece.jpg",
+    title: "Hoodies, Sweatpants & Sweatshirts",
+    slug: "hoodies-sweatpants-sweatshirts",
+    description: "Soft, warm, and perfect for branding. Premium cotton fleece for ultimate comfort and style.",
+    image: "/hoodie-sweatpants-set.jpg",
   },
   {
-    title: "Corporate T-Shirts",
-    slug: "tshirts",
-    description: "Breathable cotton and blended fabrics. Customization with embroidery and screen printing.",
-    image: "/corporate-tshirt-professional.jpg",
+    title: "Shirts & Polo Shirts",
+    slug: "shirts-polo-shirts",
+    description: "Professional and versatile options. Customization with embroidery and screen printing.",
+    image: "/shirts-polo-collection.jpg",
   },
   {
-    title: "Maasai Shukas",
-    slug: "maasai-shukas-kikoys",
-    description: "Authentic Kenyan heritage, fleece-lined or plain. Traditional patterns with modern comfort.",
-    image: "/maasai-shuka-traditional-kenyan-fabric.jpg",
+    title: "Tracksuits & Games Kit",
+    slug: "tracksuits-games-kit",
+    description: "Complete athletic sets for teams and individuals. Durable and stylish performance wear.",
+    image: "/tracksuit-games-kit.jpg",
   },
   {
-    title: "Tracksuits & Sweatpants",
-    slug: "tracksuits",
-    description: "Premium comfort wear for teams and individuals. Durable and stylish athletic apparel.",
-    image: "/tracksuit-sweatpants-athletic-wear.jpg",
+    title: "Sweaters",
+    slug: "sweaters",
+    description: "Premium knit comfort wear. Perfect for layering and custom branding options.",
+    image: "/sweater-collection-display.jpg",
   },
 ]
 
