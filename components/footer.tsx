@@ -58,12 +58,13 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Our Products</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/90">
-              <li>Hoodies & Jumpers</li>
-              <li>T-Shirts & Polo Shirts</li>
-              <li>Sweatpants & Tracksuits</li>
-              <li>Jackets & Outerwear</li>
-              <li>Maasai Shukas & Kikoys</li>
-              <li>Corporate Uniforms</li>
+              <li>Sweaters</li>
+              <li>Jeans</li>
+              <li>Hoodies, Sweatpants & Sweatshirts</li>
+              <li>Ponchos</li>
+              <li>Undergarments</li>
+              <li>Tracksuits & Games Kit</li>
+              <li>Shirts & Polo Shirts</li>
             </ul>
           </div>
 
