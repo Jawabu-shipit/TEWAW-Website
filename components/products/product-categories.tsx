@@ -4,84 +4,60 @@ import Link from "next/link"
 
 const categories = [
   {
-    title: "Hoodies & Jumpers",
-    slug: "hoodies-jumpers",
+    title: "Sweaters",
+    slug: "sweaters",
     description:
-      "Soft, warm, and perfect for branding. Our premium cotton fleece hoodies offer ultimate comfort and durability. Available in various colors and sizes.",
-    features: ["Premium cotton fleece", "Custom embroidery", "Screen printing options", "Bulk orders available"],
-    image: "/hoodie-collection-display.jpg",
+      "Premium knit sweaters crafted for comfort and style. Perfect for casual wear, corporate branding, and custom designs. Available in multiple colors and sizes.",
+    features: ["Quality knit fabric", "Custom embroidery", "Multiple color options", "Bulk orders available"],
+    image: "/sweater-collection-display.jpg",
   },
   {
-    title: "T-Shirts",
-    slug: "tshirts",
+    title: "Jeans",
+    slug: "jeans",
     description:
-      "Breathable cotton and blended fabrics perfect for everyday wear or promotional events. Customization options include embroidery and screen printing.",
-    features: ["100% cotton or blends", "Multiple color options", "Custom designs", "Fast turnaround"],
-    image: "/tshirt-variety-collection.jpg",
+      "Durable and comfortable denim wear for everyday use. Customizable with your brand or design, perfect for corporate casual or personal wear.",
+    features: ["Premium denim", "Multiple styles", "Custom branding", "Fast turnaround"],
+    image: "/jeans-variety-collection.jpg",
   },
   {
-    title: "Sweatpants & Sweatshirts",
-    slug: "sweatpants-sweatshirts",
+    title: "Hoodies, Sweatpants & Sweatshirts",
+    slug: "hoodies-sweatpants-sweatshirts",
     description:
-      "Premium comfort wear for teams and individuals. Perfect for athletic wear, loungewear, or corporate casual uniforms.",
-    features: ["Soft fleece interior", "Elastic waistbands", "Team branding", "Matching sets available"],
-    image: "/sweatpants-sweatshirt-set.jpg",
+      "Versatile comfort wear perfect for loungewear, athletic activities, or casual corporate wear. Premium fleece and cotton blends for ultimate comfort.",
+    features: ["Soft fleece interior", "Elastic waistbands", "Custom designs", "Matching sets available"],
+    image: "/hoodie-sweatpants-set.jpg",
   },
   {
-    title: "Tracksuits",
-    slug: "tracksuits",
+    title: "Ponchos",
+    slug: "ponchos",
     description:
-      "Complete athletic sets combining style and functionality. Ideal for sports teams, schools, and corporate wellness programs.",
+      "Stylish and practical ponchos for all seasons. Perfect for outdoor events, layering, or unique fashion statements with custom branding options.",
+    features: ["Premium fabrics", "One-size-fits-most", "Custom colors", "Easy to wear"],
+    image: "/poncho-collection-display.jpg",
+  },
+  {
+    title: "Undergarments",
+    slug: "undergarments",
+    description:
+      "High-quality undergarments with custom branding options. Perfect for corporate giveaways, personal use, and retail offerings.",
+    features: ["Comfortable fit", "Quality materials", "Custom designs", "Bulk availability"],
+    image: "/undergarment-collection.jpg",
+  },
+  {
+    title: "Tracksuits & Games Kit",
+    slug: "tracksuits-games-kit",
+    description:
+      "Complete athletic sets combining style and functionality. Ideal for sports teams, schools, corporate wellness programs, and active individuals.",
     features: ["Coordinated sets", "Moisture-wicking fabric", "Custom team colors", "Durable construction"],
-    image: "/tracksuit-athletic-wear.jpg",
+    image: "/tracksuit-games-kit.jpg",
   },
   {
-    title: "Jackets",
-    slug: "jackets",
+    title: "Shirts & Polo Shirts",
+    slug: "shirts-polo-shirts",
     description:
-      "Stylish, durable outerwear for all occasions. From lightweight windbreakers to warm fleece jackets, we have options for every season.",
-    features: ["Weather-resistant options", "Multiple styles", "Corporate branding", "Quality zippers & hardware"],
-    image: "/jacket-outerwear-collection.jpg",
-  },
-  {
-    title: "Polo Shirts",
-    slug: "polo-shirts",
-    description:
-      "Professional yet relaxed options perfect for corporate environments, hospitality, and retail uniforms. Classic style meets comfort.",
-    features: ["Breathable fabric", "Collar styles", "Logo embroidery", "Professional finish"],
-    image: "/polo-shirt-professional.jpg",
-  },
-  {
-    title: "Maasai Shukas & Kikoys",
-    slug: "maasai-shukas-kikoys",
-    description:
-      "Authentic Kenyan heritage textiles, available fleece-lined or plain. Traditional patterns with modern comfort and versatility.",
-    features: ["Traditional patterns", "Fleece-lined options", "Cultural authenticity", "Multiple uses"],
-    image: "/maasai-shuka-kikoy-traditional.jpg",
-  },
-  {
-    title: "Ponchos & Snoodies",
-    slug: "ponchos-snoodies",
-    description:
-      "Unique warmth solutions combining style and functionality. Perfect for outdoor events, camping, or casual wear.",
-    features: ["Cozy fleece material", "One-size-fits-most", "Easy to wear", "Custom colors"],
-    image: "/poncho-snoodie-warm-wear.jpg",
-  },
-  {
-    title: "Uniforms & Workwear",
-    slug: "uniforms-workwear",
-    description:
-      "Complete uniform solutions including overalls, dust coats, reflectors, tactical uniforms, and aprons. Professional appearance guaranteed.",
-    features: ["Industry-specific designs", "Durable materials", "Safety compliance", "Bulk pricing"],
-    image: "/corporate-uniform-professional.jpg",
-  },
-  {
-    title: "Accessories",
-    slug: "accessories",
-    description:
-      "Complete your look with our range of accessories including caps, bags (gift bags and jute bags), custom boxers, and umbrellas.",
-    features: ["Caps & headwear", "Eco-friendly jute bags", "Custom gift bags", "Branded umbrellas"],
-    image: "/accessories-caps-bags.jpg",
+      "Professional and casual shirt options including T-shirts and polo shirts. Perfect for corporate environments, events, and brand promotion.",
+    features: ["Breathable fabrics", "Multiple styles", "Logo embroidery", "Screen printing available"],
+    image: "/shirts-polo-collection.jpg",
   },
 ]
 
