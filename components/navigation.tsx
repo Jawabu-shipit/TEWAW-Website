@@ -33,7 +33,11 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="font-serif text-xl md:text-2xl font-bold text-primary">TEWAW</div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Faed24d2cbec541d799681fb6b9c34533%2F7296ab9af661453e816281554952002f?format=webp&width=200"
+              alt="Tewaw Enterprises Limited"
+              className="h-12 md:h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

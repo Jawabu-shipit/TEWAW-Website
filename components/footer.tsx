@@ -8,7 +8,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="font-serif text-2xl font-bold mb-4">TEWAW</h3>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Faed24d2cbec541d799681fb6b9c34533%2F7296ab9af661453e816281554952002f?format=webp&width=200"
+              alt="Tewaw Enterprises Limited"
+              className="h-16 w-auto mb-4"
+            />
             <p className="text-sm text-primary-foreground/90 leading-relaxed mb-4">
               Weaving Dreams, Stitching Excellence — Luxury and Comfort in Every Stitch
             </p>
@@ -58,12 +62,13 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Our Products</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/90">
-              <li>Hoodies & Jumpers</li>
-              <li>T-Shirts & Polo Shirts</li>
-              <li>Sweatpants & Tracksuits</li>
-              <li>Jackets & Outerwear</li>
-              <li>Maasai Shukas & Kikoys</li>
-              <li>Corporate Uniforms</li>
+              <li>Sweaters</li>
+              <li>Jeans</li>
+              <li>Hoodies, Sweatpants & Sweatshirts</li>
+              <li>Ponchos</li>
+              <li>Undergarments</li>
+              <li>Tracksuits & Games Kit</li>
+              <li>Shirts & Polo Shirts</li>
             </ul>
           </div>
 

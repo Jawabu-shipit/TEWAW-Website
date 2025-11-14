@@ -104,16 +104,13 @@ export function QuoteForm() {
                 <SelectValue placeholder="Select product type" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="Hoodies & Jumpers">Hoodies & Jumpers</SelectItem>
-                <SelectItem value="T-Shirts">T-Shirts</SelectItem>
-                <SelectItem value="Sweatpants & Sweatshirts">Sweatpants & Sweatshirts</SelectItem>
-                <SelectItem value="Tracksuits">Tracksuits</SelectItem>
-                <SelectItem value="Jackets">Jackets</SelectItem>
-                <SelectItem value="Polo Shirts">Polo Shirts</SelectItem>
-                <SelectItem value="Maasai Shukas & Kikoys">Maasai Shukas & Kikoys</SelectItem>
-                <SelectItem value="Ponchos & Snoodies">Ponchos & Snoodies</SelectItem>
-                <SelectItem value="Uniforms & Workwear">Uniforms & Workwear</SelectItem>
-                <SelectItem value="Accessories">Accessories (Caps, Bags, etc.)</SelectItem>
+                <SelectItem value="Sweaters">Sweaters</SelectItem>
+                <SelectItem value="Jeans">Jeans</SelectItem>
+                <SelectItem value="Hoodies, Sweatpants & Sweatshirts">Hoodies, Sweatpants & Sweatshirts</SelectItem>
+                <SelectItem value="Ponchos">Ponchos</SelectItem>
+                <SelectItem value="Undergarments">Undergarments</SelectItem>
+                <SelectItem value="Tracksuits & Games Kit">Tracksuits & Games Kit</SelectItem>
+                <SelectItem value="Shirts & Polo Shirts">Shirts & Polo Shirts</SelectItem>
                 <SelectItem value="Other">Other</SelectItem>
               </SelectContent>
             </Select>
